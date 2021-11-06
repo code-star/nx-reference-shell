@@ -3974,7 +3974,7 @@ let AppModule = /*#__PURE__*/(() => {
       useExisting: MessageService
     }],
     imports: [[BrowserModule, UiModule, http_js_.HttpClientModule, SharedServicesModule, SharedDataAccessModule, router_js_.RouterModule.forRoot([{
-      path: "portfolio",
+      path: "",
       loadChildren: () => __webpack_require__.e(/* import() */ 478).then(__webpack_require__.t.bind(__webpack_require__, 2478, 23)).then(m => m.RemoteEntryModule)
     }], {
       initialNavigation: "enabledBlocking"
