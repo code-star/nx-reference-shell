@@ -11,13 +11,13 @@ Promise.all(/* import() */[__webpack_require__.e(423), __webpack_require__.e(426
 
 /***/ }),
 
-/***/ 9658:
+/***/ 3274:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var __webpack_error__ = new Error();
 module.exports = new Promise((resolve, reject) => {
 	if(typeof portfolio !== "undefined") return resolve();
-	__webpack_require__.l("http://localhost:4201/remoteEntry.js", (event) => {
+	__webpack_require__.l("https://code-star.github.io/nx-reference-portfolio/remoteEntry.js", (event) => {
 		if(typeof portfolio !== "undefined") return resolve();
 		var errorType = event && (event.type === 'load' ? 'missing' : event.type);
 		var realSrc = event && event.target && event.target.src;
@@ -136,7 +136,7 @@ module.exports = new Promise((resolve, reject) => {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + (chunkId === 592 ? "common" : chunkId) + "." + {"57":"452fc94dab5169379f60","289":"4f38e9850eb2e9742e77","423":"99eb381cf199a27c63e3","426":"0ca610c82738d363116e","478":"6bb9be1091bef5e90fc1","497":"ce3b54966dc799303975","592":"8aa5159348b1debad23d","713":"feaa5b18004bfb959565","721":"02ed3b1ffff6fb232656","989":"71bf53829f630d96c4f9"}[chunkId] + ".js";
+/******/ 			return "" + (chunkId === 592 ? "common" : chunkId) + "." + {"57":"452fc94dab5169379f60","289":"4f38e9850eb2e9742e77","423":"99eb381cf199a27c63e3","426":"0ca610c82738d363116e","478":"973e8562be8bdc5f946d","497":"ce3b54966dc799303975","592":"8aa5159348b1debad23d","713":"feaa5b18004bfb959565","721":"02ed3b1ffff6fb232656","989":"71bf53829f630d96c4f9"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -234,7 +234,7 @@ module.exports = new Promise((resolve, reject) => {
 /******/ 			"2478": [
 /******/ 				"default",
 /******/ 				"./Module",
-/******/ 				9658
+/******/ 				3274
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.remotes = (chunkId, promises) => {
@@ -325,7 +325,7 @@ module.exports = new Promise((resolve, reject) => {
 /******/ 					register("@angular/common", "12.2.11", () => (Promise.all([__webpack_require__.e(426), __webpack_require__.e(57)]).then(() => (() => (__webpack_require__(2057))))));
 /******/ 					register("@angular/core", "12.2.11", () => (Promise.all([__webpack_require__.e(423), __webpack_require__.e(989)]).then(() => (() => (__webpack_require__(1989))))));
 /******/ 					register("@angular/router", "12.2.11", () => (Promise.all([__webpack_require__.e(423), __webpack_require__.e(426), __webpack_require__.e(713), __webpack_require__.e(289), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(6713))))));
-/******/ 					initExternal(9658);
+/******/ 					initExternal(3274);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
