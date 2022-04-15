@@ -3857,7 +3857,7 @@ let AppComponent = /*#__PURE__*/(() => {
     constructor(messageService, btcRateService) {
       this.messageService = messageService;
       this.btcRateService = btcRateService;
-      this.title = "Rx Reference";
+      this.title = "Nx Reference";
       this.loading = false;
       this.rates = [];
     }
